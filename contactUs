@@ -14,14 +14,14 @@
   </tr>
   <tr>
     <td><label>Mobile No</label></td>
-    <td><input type="num" placeholder="Enter Only Number" /></td>
+    <td><input type="no" placeholder="Enter Only Number" /></td>
   </tr>
   <tr>
     <td><label>Email</label></td>
-    <td><input type="text" placeholder="abc@gemail.com" /></td>
+    <td><input type="text" placeholder="abc@gmail.com" /></td>
   </tr>
     <td><label>Inquiry About</label></td>
-    <td><input type="text" style="height: 100px" /></td>
+    <td><textarea rows="15"cols="30"></textarea></td>
   </tr>
   <tr><br>
     <br>
