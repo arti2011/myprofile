@@ -2,6 +2,13 @@
 <html>
     <head>
         <title>contact us</title>
+        <style>
+        lable{
+          color: darkcyan;
+        }
+        input[type="text"]{
+          color: crimson;
+        }
     </head>
     <body>
         <form>
@@ -20,6 +27,9 @@
     <td><label>Email</label></td>
     <td><input type="text" placeholder="abc@gmail.com" /></td>
   </tr>
+
+  <tr>
+
     <td><label>Inquiry About</label></td>
     <td><textarea rows="15"cols="30"></textarea></td>
   </tr>

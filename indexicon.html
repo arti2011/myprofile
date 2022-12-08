@@ -1,54 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Index HTML Page</title>
-    <style>
-      header{
-        background-color: goldenrod;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <i class="fa fa-user" aria-hidden="true"> Arti Salunkhe</i
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-phone-square" aria-hidden="true"> +91 7709 6562 36</i
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true">
-          Artihsalunkhe@gmail.com</i
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </header>
-    <nav><br>
-      <a href="home.html"taget="my frame">Home</a>&nbsp;&nbsp;
-      <a href="techStack.html"taget="my frame">Techstack</a>&nbsp;&nbsp;
-      <a href="education.html"taget="my frame">Education</a>&nbsp;&nbsp;
-      <a href="project details.html"target="my frame">Project</a>&nbsp;&nbsp;
-      <a href="hobbies.html"taget="my frame">Hobbies</a>&nbsp;&nbsp;
-      <a href="personal.html"taget="my frame">Personal</a>&nbsp;&nbsp;
-    </nav>
+
+<head>
+  <title>Index HTML Page</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+
+  <style>
+    body{
+      background-image: url(images\ 1.jpg);
+      background-repeat:no repeat;
+      background-size:cover
+    }
+
+    header {
+     background-color:gray
+    }
+   .fault,icon{
+    margin-right: 15px;
+   }
+    .fun{
+    margin-right: 20px;
+    text-shadow: 10px 10px 10px;
+    color: rgb(1, 15, 15);
+    }
+ . fault i {
+    border-radius: 100px;
+    height: 25px;
+    width: 25px;
+    color: rgb(145, 241, 16);
+    box-shadow: 10px 8px 8px;
+    background-color: rgb(244, 57, 180);
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    }
+    footer{
+      border-radius: 100px;
+      height: 25px;
+    width: 25px;
+    color: black;
+    box-shadow: 10px 8px 8px;
+    background-color:rgb(248, 28, 138));
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    }
+  
+
+</head>
+
+<body>
+  <header>
+    <span class="fault">
+      <i class="fa fa-user" aria-hidden="true"> Arti Salunkhe</i>
+    </span>
+    <span class="fault">
+      <i class="fa fa-phone-square" aria-hidden="true"> +91 7709 6562 36</i>
+    </span>
+
+    <span class="fault">
+      <i class="fa fa-envelope" aria-hidden="true">
+        Artihsalunkhe@gmail.com</i>
+    </span>
+
+  </header><br>
+  <nav>
+    <span>
+      <a class="fun"href="home.html" target="my frame">Home</a> 
+
+    </span>
+    <span>
+      <a class="fun"  href="techStack.html" target="my frame">Techstack</a>
+    </span>
+    <span>
+      <a class="fun" href="education.html" target="my frame">Education</a>
+    </span>
+    <span>
+      <a class="fun" href="project details.html" target="my frame">Project</a>
+    </span>
+    <span>
+      <a class="fun" href="hobbies.html" target="my frame">Hobbies</a>
+    </span>
+    <span>
+      <a class="fun" href="personal.html" target="my frame">Personal</a>
+    </span>
+    <span>
+      <a class="fun" href="contactUs.html" target="my frame">ContactUs</a>
+    </span>
+    <span>
+      <a class="fun" href="internalCSS.html" target="my frame">InternalCSS</a>
+    </span>
+
+  </nav>
+  <p>
+    <iframe width="900px" height="500px" name="my frame" src="home.html"></iframe>
+  </p>
+  <footer>
     <p>
-      <iframe width="900px" height="500px"name="my frame"src="home.html"></iframe>
-    </p><footer>
-      <p>
-        <b>Follow Me:</b>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://in.linkedin.com/" target="_blank">
+      <span class="icon">
+        <b>Follow Me:</b>
+      </span>
+
+      <span class="icon">
+        <a href="https://in.linkedin.com/"target="_blank">
           <i class="fa fa-linkedin-square" aria-hidden="true"></i></a
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.google.com/" target="_blank"
-          ><i class="fa fa-google" aria-hidden="true"></i
-        ></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/" target="_blank"
-          ><i class="fa fa-instagram" aria-hidden="true"></i></a
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.facebook.com/" target="_blank"
-          ><i class="fa fa-facebook-official" aria-hidden="true"></i
-        ></a>
-      </p>
-    </footer>
-  </body>
+      ></span>
+      <span class="icon">
+        <a href="https://www.google.com/"target="_blank">
+          <i class="fa fa-google" aria-hidden="true"></i></a
+      ></span>
+
+      <span class="icon">
+        <a href="https://www.instagram.com/"target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i></a
+      ></span>
+
+      <span class="icon">
+        <a href="https://www.facebook.com/"target="_blank">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i></a
+      ></span>
+    </p>
+  </footer>
+  <h4><marquee>WELCOME TO CODEMIND TECHNOLOGY</marquee></h4>
+</body>
 </html>

@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index HTML Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        background-image: url(img.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      header {
+        background-color: grey;
+      }
+      .fontawesome,
+      .icon {
+        margin-right: 20px;
+      }
+
+      .mind {
+        margin-right: 26px;
+        text-shadow: 10px 10px 10px;
+        color: black;
+      }
+
+      .info {
+        color: yellow;
+        padding: 8px;
+      }
+
+      .fontawesome i {
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        color: rgb(132, 245, 12);
+        box-shadow: 10px 7px 8px black;
+        background-color: rgb(242, 56, 180);
+        align-items: center;
+        justify-content: center;
+        display: inline-flex;
+      }
+
+      footer a {
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        color: black;
+        box-shadow: 10px 6px 10px black;
+        background-color: deeppink;
+        align-items: center;
+        justify-content: center;
+        display: inline-flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- <header style= color:orangered;background-color:gray> -->
+      <span class="fontawesome">
+        <i class="fa fa-user" aria-hidden="true"></i
+        ><span class="info">Arti Salunkhe</span>
+      </span>
+
+      <span class="fontawesome">
+        <i class="fa fa-phone-square" aria-hidden="true"></i
+        ><span class="info">+91 7709 6562 36</span>
+      </span>
+
+      <span class="fontawesome">
+        <i class="fa fa-envelope" aria-hidden="true"></i
+        ><span class="info"> Artihsalunkhe@gmail.com</span>
+      </span>
+    </header>
+    <br />
+    <nav>
+      <a class="mind" href="home.html" target="myFrame">HOME</a>
+
+      <a class="mind" href="techStack.html" target="myFrame"
+        >TECHNOLOGY STACK</a
+      >
+
+      <a class="mind" href="education.html" target="myFrame">EDUCATION</a>
+
+      <a class="mind" href="personal.html" target="myFrame">PERSONAL DETAILS</a>
+
+      <a class="mind" href="myHobbies.html" target="myFrame">HOBBIES</a>
+
+      <a class="mind" href="projectDetails.html" target="myFrame">PROJECT</a>
+
+      <a class="mind" href="contactUs.html" target="myFrame">CONTACT US</a>
+    </nav>
+
+    <p>
+      <iframe
+        width="900px"
+        height="500px"
+        name="myFrame"
+        src="home.html "
+      ></iframe>
+    </p>
+
+    <footer>
+      <p>
+        <span class="icon">
+          <b>Follow Me:</b>
+        </span>
+        <span class="icon">
+          <a href="https://in.linkedin.com/" target="_blank">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i></a
+        ></span>
+        <span class="icon">
+          <a href="https://www.google.com/" target="_blank">
+            <i class="fa fa-google" aria-hidden="true"></i></a
+        ></span>
+        <span class="icon">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a
+        ></span>
+        <span class="icon">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i></a
+        ></span>
+      </p>
+    </footer>
+    <h4><marquee>WELCOME TO CODEMIND TECHNOLOGY</marquee></h4>
+  </body>
+</html>
